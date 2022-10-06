@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto';
   color: #212121;
+  background: #E5E5E5;
 }
 
 .menu-item1 {
@@ -28,12 +29,28 @@ body {
   color: #212121;
 }
 
+.menu-item22:hover {
+  color: #2196f3;
+}
+
+.menu-item22:focus {
+  color: #2196f3;
+}
+
 .menu-item3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.menu-item3:hover {
+  color: #2196f3;
+}
+
+.menu-item3:focus {
+  color: #2196f3;
 }
 
 .menu-item33 {
@@ -52,12 +69,28 @@ body {
   color: #212121;
 }
 
+.menu-item4:hover {
+  color: #2196f3;
+}
+
+.menu-item4:focus {
+  color: #2196f3;
+}
+
 .menu-item5 {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #212121;
+}
+
+.menu-item5:hover {
+  color: #757575;
+}
+
+.menu-item5:focus {
+  color: #757575;
 }
 
 .menu-item6 {
@@ -65,7 +98,23 @@ body {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-item6:hover {
   color: #757575;
+}
+
+.menu-item6:focus {
+  color: #757575;
+}
+
+.menu-color {
+  color: #ffffff;
+}
+
+.list {
+  list-style-type: none;
 }
 
 a:link {
@@ -79,23 +128,6 @@ a:link {
 .foot-menu {
   font-style: normal;
   background: #2f303a;
-}
-
-.menu-color {
-  color: #ffffff;
-}
-
-.list {
-  list-style-type: none;
-}
-
-.button {
-  border: 0;
-  background: transparent;
-}
-
-.button-list {
-  list-style-type: none;
 }
 
 .foot-name {
@@ -114,9 +146,14 @@ a:link {
   font-size: 14px;
   line-height: 1, 71;
   color: #ffffff;
+  cursor: pointer;
 }
 
-.h1-color {
+.foot-data:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.title-color {
   width: 1600px;
   height: 600px;
   left: 0px;
@@ -143,11 +180,22 @@ nav .menu-color {
   border-radius: 4px;
   color: #ffffff;
   border: none;
-}
-.box {
   cursor: pointer;
 }
 
-.menu-move:focus {
-  color: red;
+
+.btn-hover {
+  border: none;
+  background: #ffffff;
+}
+
+.btn-hover:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.buttons {
+  list-style-type: none;
 }
