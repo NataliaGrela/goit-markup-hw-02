@@ -1,112 +1,119 @@
 body {
-  font-family: 'Roboto';
-  color: #212121;
-  background: #E5E5E5;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--brand-color);
 }
 
+:root {
+  --brand-color: #212121;
+  --item-color: #2196f3;
+  --link-color: #757575;
+  --second-background: #f5f4fa;
+  --third-background: #2f303a;
+}
 .menu-item1 {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item2 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item22 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .menu-item22:hover {
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item22:focus {
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item3 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .menu-item3:hover {
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item3:focus {
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item33 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item4 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .menu-item4:hover {
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item4:focus {
-  color: #2196f3;
+  color: var(--item-color);
 }
 
 .menu-item5 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .menu-item5:hover {
-  color: #757575;
+  color: var(--item-color);
 }
 
 .menu-item5:focus {
-  color: #757575;
+  color: var(--item-color);
 }
 
 .menu-item6 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .menu-item6:hover {
-  color: #757575;
+  color: var(--item-color);
 }
 
 .menu-item6:focus {
-  color: #757575;
+  color: var(--item-color);
 }
 
 .menu-color {
@@ -127,7 +134,7 @@ a:link {
 
 .foot-menu {
   font-style: normal;
-  background: #2f303a;
+  background: var(--third-background);
 }
 
 .foot-name {
@@ -135,8 +142,8 @@ a:link {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
-  color: #2196f3;
+  line-height: 1.19;
+  color: var(--item-color);
 }
 
 .foot-data {
@@ -144,7 +151,7 @@ a:link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: #ffffff;
   cursor: pointer;
 }
@@ -163,19 +170,19 @@ a:link {
 }
 
 .name-color {
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .name-description {
-  color: #757575;
+  color: var(--link-color);
 }
 
 nav .menu-color {
-  color: black;
+  color: #000000;
 }
 
 .box-first {
-  background: #2196f3;
+  background: var(--item-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
@@ -183,14 +190,13 @@ nav .menu-color {
   cursor: pointer;
 }
 
-
 .btn-hover {
   border: none;
   background: #ffffff;
 }
 
 .btn-hover:hover {
-  background: #2196f3;
+  background: var(--item-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -198,4 +204,8 @@ nav .menu-color {
 
 .buttons {
   list-style-type: none;
+}
+
+.page-color {
+  background: var(--second-background);
 }
