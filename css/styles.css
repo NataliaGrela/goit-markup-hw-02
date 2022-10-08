@@ -11,7 +11,7 @@ body {
   --second-background: #f5f4fa;
   --third-background: #2f303a;
 }
-.menu-item1 {
+.menu-item-one {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -20,7 +20,7 @@ body {
   color: var(--item-color);
 }
 
-.menu-item2 {
+.menu-item-two {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -28,23 +28,7 @@ body {
   color: var(--item-color);
 }
 
-.menu-item22 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--brand-color);
-}
-
-.menu-item22:hover {
-  color: var(--item-color);
-}
-
-.menu-item22:focus {
-  color: var(--item-color);
-}
-
-.menu-item3 {
+.menu-item-twenty-two {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,23 +36,15 @@ body {
   color: var(--brand-color);
 }
 
-.menu-item3:hover {
+.menu-item-twenty-two:hover {
   color: var(--item-color);
 }
 
-.menu-item3:focus {
+.menu-item-twenty-two:focus {
   color: var(--item-color);
 }
 
-.menu-item33 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--item-color);
-}
-
-.menu-item4 {
+.menu-item-three {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -76,15 +52,23 @@ body {
   color: var(--brand-color);
 }
 
-.menu-item4:hover {
+.menu-item-three:hover {
   color: var(--item-color);
 }
 
-.menu-item4:focus {
+.menu-item-three:focus {
   color: var(--item-color);
 }
 
-.menu-item5 {
+.menu-item-thirty-three {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--item-color);
+}
+
+.menu-item-four {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -92,15 +76,15 @@ body {
   color: var(--brand-color);
 }
 
-.menu-item5:hover {
+.menu-item-four:hover {
   color: var(--item-color);
 }
 
-.menu-item5:focus {
+.menu-item-four:focus {
   color: var(--item-color);
 }
 
-.menu-item6 {
+.menu-item-five {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -108,11 +92,27 @@ body {
   color: var(--brand-color);
 }
 
-.menu-item6:hover {
+.menu-item-five:hover {
   color: var(--item-color);
 }
 
-.menu-item6:focus {
+.menu-item-five:focus {
+  color: var(--item-color);
+}
+
+.menu-item-six {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+
+.menu-item-six:hover {
+  color: var(--item-color);
+}
+
+.menu-item-six:focus {
   color: var(--item-color);
 }
 
@@ -208,4 +208,8 @@ nav .menu-color {
 
 .page-color {
   background: var(--second-background);
+}
+
+button[type=button] {
+  cursor: pointer;
 }
