@@ -1,8 +1,3 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--brand-color);
-}
-
 :root {
   --brand-color: #212121;
   --item-color: #2196f3;
@@ -10,6 +5,12 @@ body {
   --second-background: #f5f4fa;
   --third-background: #2f303a;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--brand-color);
+}
+
 .menu-item-one {
   font-family: 'Raleway';
   font-weight: 700;
