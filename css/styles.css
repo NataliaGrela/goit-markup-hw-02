@@ -213,3 +213,7 @@ nav .menu-color {
 button[type=button] {
   cursor: pointer;
 }
+
+.container {
+  width: 1200px;
+}
